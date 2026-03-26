@@ -1,21 +1,32 @@
 {
-  "version": 1,
-  "profile-title": "Test keys",
-  "hide-server-settings": true,
-  "encrypted-subscription": true,
-  "profile-web-page-url": "https://t.me/your_channel",
+  "version": "1.0.0",
+  "log": {
+    "level": "warn"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "google",
+        "address": "8.8.8.8"
+      }
+    ]
+  },
   "outbounds": [
     {
       "type": "remote",
-      "tag": "Remote Nodes",
+      "tag": "proxy",
       "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/main/nodes.txt",
       "cache_usage": true
     }
   ],
-  "messages": [
-    {
-      "title": "Успешно!",
-      "content": "Настройки серверов скрыты автоматически."
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090"
     }
-  ]
+  },
+  "hiddify": {
+    "name": "Test keys",
+    "hide_server_settings": true,
+    "encrypted_subscription": true
+  }
 }
