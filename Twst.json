@@ -1,22 +1,48 @@
-{
-  "version": 1,
-  "profile-title": "Test keys",
-  "hide-server-settings": true,
-  "encrypted-subscription": true,
-  "profile-web-page-url": "https://t.me/your_channel",
-  "outbounds": [
-    {
-      "type": "remote",
-      "tag": "Remote Nodes",
-      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/main/nodes.txt",
-      "cache_usage": true
-    }
-  ],
-  "messages": [
-    {
-      "title": "Успешно!",
-      "content": "Настройки серверов скрыты автоматически."
-    }
-  ]
-}
+# ===== 🌍 REGULAR SERVERS =====
 
+# 🇦🇱 Albania
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@alb02.abvpn.net:443?security=tls&type=xhttp&fp=random&sni=alb02.abvpn.net&host=alb02.abvpn.net&path=8081fd98-763a-4ed6-aacd-40bb62c8070a&mode=auto&alpn=h2&allowInsecure=0#🇦🇱 Albania #1
+
+# 🇩🇪 Germany
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@de33.tcpdoor.net:443?security=reality&type=tcp&fp=firefox&sni=www.deepl.com&pbk=A8SIxFsdame0C-zJF5DozThuT9xSat6JrMIXpuacr1I&sid=c8430dcd&spx=/#🇩🇪 Germany #1
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@de53.lowlatency.cloud:443?security=reality&type=tcp&fp=firefox&sni=www.tradingview.com&pbk=547blw-mW8th_C4P82at5AplRE_jHryZ3dINqRj4wjY&sid=821a1a4f&spx=/#🇩🇪 Germany #2
+
+# 🇱🇻 Latvia
+socks://AVu9Hg:jEBwYv@141.98.187.14:8000#🇱🇻 Latvia #1
+
+# 🇳🇱 Netherlands
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@nl41.tcpdoor.net:443?security=tls&type=xhttp&fp=firefox&sni=nl41.tcpdoor.net&host=nl41.tcpdoor.net&path=%2Fda7995fc-d2df-43f6-9331-d3122a4a0011%2F&mode=auto&alpn=h2&allowInsecure=0#🇳🇱 Netherlands #1
+vless://0370b855-2ac9-44d4-93d4-bfa62cee8cdb@77.221.148.45:443?security=reality&encryption=none&pbk=gYLRvAfMAg-ZYgdtA2F_rgV151csPl9z6AJTbwhqz0w&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=f8ac5ee89900f049#🇳🇱 Netherlands #2 [Fast]
+
+# 🇵🇱 Poland
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@pl10.theabvp.org:443?security=reality&type=tcp&fp=firefox&sni=ozon.ru&pbk=M4ZRYvZP9PclQVpAmfpOMjLDIxxVdUwl5Zhbn6OPg0s&sid=eee8e939&spx=/#🇵🇱 Poland #1
+socks://BUA74b:FFeTE1@170.168.137.129:8000#🇵🇱 Poland #2
+
+# 🇬🇧 United Kingdom
+vless://3689194e-3931-406f-a7bc-f8f55e5f6c4b@2.27.20.63:20498?type=tcp&encryption=none&security=reality&pbk=ICcuzeR-E9pci0Y8_YaieTznCURgFcDhsjzkKkhqgEU&fp=chrome&sni=www.oracle.com&sid=d8b1e00c3b0a&spx=%2F#🇬🇧 United Kingdom #1 [Fast]
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@gbr06.abvpn.ru:443?security=reality&type=tcp&fp=firefox&sni=sun6-20.userapi.com&pbk=XGf4L-XOuBauLpraxuQNbBnAPOQtKbiXxQD-k3a0tEo&sid=f1e07f16&spx=/#🇬🇧 United Kingdom #2
+
+
+# ===== ⛔ WHITELIST SERVERS =====
+
+# 🇦🇹 Austria
+trojan://trojan@152.53.200.167:8444?path=%2F&security=tls&host=jflsjlaf.pages.dev&fp=chrome&allowinsecure=0&type=ws&sni=jflsjlaf.pages.dev#🇦🇹 Austria [WhiteList] #1
+
+# 🇨🇿 Czech
+hysteria2://hysteria2_fastlane_utk2muyt2:hGMQYBYWdQivdQy20Ki62tuEqaC6BtWu@83.166.255.224:1935?security=tls&allowinsecure=0&sni=ru1.h.fastlanehosting.ru#🇨🇿 Czech [WhiteList] #1
+
+# 🇪🇪 Estonia
+vless://bc019623-ecae-4ee0-8826-6e96f6942263@93.123.39.222:443?security=reality&encryption=none&pbk=Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw&headerType=none&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=estonia1.labburo.su&sid=3c7dbf0e7bd3d03c#🇪🇪 Estonia [WhiteList] #1
+
+# 🇳🇱 Netherlands
+vless://0e3ae851-97bc-439d-b370-a1d893d4bdd4@84.201.132.10:443?security=reality&encryption=none&pbk=OtmHF41JJLUBnJZpJ7MWyQ1oqIxY8yaoCtVmXODIix8&headerType=none&fp=chrome&spx=%2F&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=music.yandex.ru&sid=16430e630f#🇳🇱 Netherlands [WhiteList] #1
+
+# 🇷🇺 Russia
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@ru101.tcpdoor.net:7443?security=reality&type=tcp&fp=firefox&sni=ru101.tcpdoor.net&pbk=NO1oaER_X1q89kSY5q3NwZcZtyT5NQ_3t-rqGqO6O1Q&sid=722f7a2c&spx=/#🇷🇺 Russia [WhiteList] #1
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@ru141.lowlatency.cloud:443?security=reality&type=grpc&fp=firefox&sni=max.ru&pbk=pdynf9_1_k1RT88_GpppWGqJ4eS_aAYTh2RXGgaR8Dg&serviceName=grpc&sid=8adc1925#🇷🇺 Russia [WhiteList] #2
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@ru41.theabvp.org:443?security=reality&type=tcp&fp=firefox&sni=sun6-20.userapi.com&pbk=YlTuZAJgyqZ6gmKKTbtR0TZvFsXeozca_bs0tqIXtys&sid=200fda74&spx=/#🇷🇺 Russia [WhiteList] #3
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@ru50.theabvp.org:4443?security=reality&type=tcp&fp=firefox&sni=sun6-21.userapi.com&pbk=8JaJV9a6AAnFUiuxGQU1JZI3SIlS38HranlKMt1Ydh0&sid=ab7348ce&spx=/#🇷🇺 Russia [WhiteList] #4
+
+# 🇺🇸 USA
+vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@usa09.abvpn.ru:443?security=reality&type=tcp&fp=firefox&sni=www.samsung.com&pbk=H-I1iRwSXjOaA16dDckp8q9MMySWgFkNwMwy1PHwJCc&sid=f0923e1e&spx=/#🇺🇸 USA [WhiteList] #1
+vless://1fabb370-dac5-47cd-a2cb-f8e82ed9223b@213.219.214.27:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0&host=vk.com&fp=chrome&allowinsecure=0&type=xhttp&sni=www.vk.com&sid=287d#🇺🇸 USA [WhiteList] #2
