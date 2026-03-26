@@ -1,32 +1,14 @@
 {
-  "version": "1.0.0",
-  "log": {
-    "level": "warn"
-  },
-  "dns": {
-    "servers": [
-      {
-        "tag": "google",
-        "address": "8.8.8.8"
-      }
-    ]
-  },
+  "name": "Test keys",
+  "hide_server_settings": true,
+  "encrypted_subscription": true,
+  "auto_update": true,
+  "update_interval": 24,
   "outbounds": [
     {
       "type": "remote",
-      "tag": "proxy",
-      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/main/nodes.txt",
-      "cache_usage": true
+      "tag": "Remote Nodes",
+      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/main/nodes.txt"
     }
-  ],
-  "experimental": {
-    "clash_api": {
-      "external_controller": "127.0.0.1:9090"
-    }
-  },
-  "hiddify": {
-    "name": "Test keys",
-    "hide_server_settings": true,
-    "encrypted_subscription": true
-  }
+  ]
 }
