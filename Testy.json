@@ -8,7 +8,7 @@
     {
       "type": "remote",
       "tag": "Remote Nodes",
-      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/main/nodes.txt"
+      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/refs/heads/main/nodes.txt"
     }
   ]
 }
