@@ -1,4 +1,9 @@
 #profile-title: base64:VGVzdCBrZXlz
+#profile-update-interval: 24
+#profile-web-page-url: https://t.me/your_channel
+#subscription-userinfo: upload=0; download=0; total=0; expire=0
+#support-url: https://t.me/your_support
+
 vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@alb02.abvpn.net:443?security=tls&type=xhttp&fp=random&sni=alb02.abvpn.net&host=alb02.abvpn.net&path=8081fd98-763a-4ed6-aacd-40bb62c8070a&mode=auto&alpn=h2&allowInsecure=0#🇦🇱%20Albania
 vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@de33.tcpdoor.net:443?security=reality&type=tcp&fp=firefox&sni=www.deepl.com&pbk=A8SIxFsdame0C-zJF5DozThuT9xSat6JrMIXpuacr1I&sid=c8430dcd&spx=/#🇩🇪%20Germany%20%231
 vless://16930075-c0ae-4aa9-9d4a-57de9a57454f@de53.lowlatency.cloud:443?security=reality&type=tcp&fp=firefox&sni=www.tradingview.com&pbk=547blw-mW8th_C4P82at5AplRE_jHryZ3dINqRj4wjY&sid=821a1a4f&spx=/#🇩🇪%20Germany%20%232
