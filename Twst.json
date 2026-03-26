@@ -1,1 +1,22 @@
-aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JvbWFubmFzcmFsNzYtZGV2L1Rlc3Rfdmxlc3NjL3JlZnMvaGVhZHMvbWFpbi9UZXN0eS5qc29uP3Rva2VuPUdIU0FUMEFBQUFBQURZWjQ1TVk3SVNSRlBFM1ozWkRBNzdLMk9FN0Q3UQ==
+{
+  "version": 1,
+  "profile-title": "Test keys",
+  "hide-server-settings": true,
+  "encrypted-subscription": true,
+  "profile-web-page-url": "https://t.me/your_channel",
+  "outbounds": [
+    {
+      "type": "remote",
+      "tag": "Remote Nodes",
+      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/main/nodes.txt",
+      "cache_usage": true
+    }
+  ],
+  "messages": [
+    {
+      "title": "Успешно!",
+      "content": "Настройки серверов скрыты автоматически."
+    }
+  ]
+}
+
