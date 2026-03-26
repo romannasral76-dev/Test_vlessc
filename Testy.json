@@ -4,11 +4,158 @@
   "encrypted_subscription": true,
   "auto_update": true,
   "update_interval": 24,
+  "allow_export": false,
   "outbounds": [
     {
-      "type": "remote",
-      "tag": "Remote Nodes",
-      "url": "https://raw.githubusercontent.com/romannasral76-dev/Test_vlessc/refs/heads/main/nodes.txt"
+      "type": "vless",
+      "tag": "🇦🇱 Albania",
+      "server": "alb02.abvpn.net",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "alb02.abvpn.net", "utls": { "enabled": true, "fingerprint": "random" } },
+      "transport": { "type": "xhttp", "host": ["alb02.abvpn.net"], "path": "8081fd98-763a-4ed6-aacd-40bb62c8070a" }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany #1",
+      "server": "de33.tcpdoor.net",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "www.deepl.com", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "A8SIxFsdame0C-zJF5DozThuT9xSat6JrMIXpuacr1I", "short_id": "c8430dcd" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Germany #2",
+      "server": "de53.lowlatency.cloud",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "www.tradingview.com", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "547blw-mW8th_C4P82at5AplRE_jHryZ3dINqRj4wjY", "short_id": "821a1a4f" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 United Kingdom",
+      "server": "gbr06.abvpn.ru",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "sun6-20.userapi.com", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "XGf4L-XOuBauLpraxuQNbBnAPOQtKbiXxQD-k3a0tEo", "short_id": "f1e07f16" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Netherlands",
+      "server": "nl41.tcpdoor.net",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "nl41.tcpdoor.net", "utls": { "enabled": true, "fingerprint": "firefox" } },
+      "transport": { "type": "xhttp", "host": ["nl41.tcpdoor.net"], "path": "/da7995fc-d2df-43f6-9331-d3122a4a0011/" }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 Poland #1",
+      "server": "pl10.theabvp.org",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "ozon.ru", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "M4ZRYvZP9PclQVpAmfpOMjLDIxxVdUwl5Zhbn6OPg0s", "short_id": "eee8e939" } }
+    },
+    {
+      "type": "socks",
+      "tag": "🇵🇱 Poland #2",
+      "server": "170.168.137.129",
+      "server_port": 8000,
+      "username": "BUA74b",
+      "password": "FFeTE1"
+    },
+    {
+      "type": "socks",
+      "tag": "🇱🇻 Latvia",
+      "server": "141.98.187.14",
+      "server_port": 8000,
+      "username": "AVu9Hg",
+      "password": "jEBwYv"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 USA [WhiteList]",
+      "server": "usa09.abvpn.ru",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "www.samsung.com", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "H-I1iRwSXjOaA16dDckp8q9MMySWgFkNwMwy1PHwJCc", "short_id": "f0923e1e" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 Russia #1 [WhiteList]",
+      "server": "ru101.tcpdoor.net",
+      "server_port": 7443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "ru101.tcpdoor.net", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "NO1oaER_X1q89kSY5q3NwZcZtyT5NQ_3t-rqGqO6O1Q", "short_id": "722f7a2c" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 Russia #2 [WhiteList]",
+      "server": "ru141.lowlatency.cloud",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "max.ru", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "pdynf9_1_k1RT88_GpppWGqJ4eS_aAYTh2RXGgaR8Dg", "short_id": "8adc1925" } },
+      "transport": { "type": "grpc", "service_name": "grpc" }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 Russia #3 [WhiteList]",
+      "server": "ru41.theabvp.org",
+      "server_port": 443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "sun6-20.userapi.com", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "YlTuZAJgyqZ6gmKKTbtR0TZvFsXeozca_bs0tqIXtys", "short_id": "200fda74" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 Russia #4 [WhiteList]",
+      "server": "ru50.theabvp.org",
+      "server_port": 4443,
+      "uuid": "16930075-c0ae-4aa9-9d4a-57de9a57454f",
+      "tls": { "enabled": true, "server_name": "sun6-21.userapi.com", "utls": { "enabled": true, "fingerprint": "firefox" }, "reality": { "enabled": true, "public_key": "8JaJV9a6AAnFUiuxGQU1JZI3SIlS38HranlKMt1Ydh0", "short_id": "ab7348ce" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 Estonia [WhiteList]",
+      "server": "93.123.39.222",
+      "server_port": 443,
+      "uuid": "bc019623-ecae-4ee0-8826-6e96f6942263",
+      "flow": "xtls-rprx-vision",
+      "tls": { "enabled": true, "server_name": "estonia1.labburo.su", "reality": { "enabled": true, "public_key": "Sc5uStN4dnN52FADXory1XNJhzpgF5FT7IMiw5csyXw", "short_id": "3c7dbf0e7bd3d03c" } }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇿 Chezh [WhiteList]",
+      "server": "83.166.255.224",
+      "server_port": 1935,
+      "password": "hGMQYBYWdQivdQy20Ki62tuEqaC6BtWu",
+      "tls": { "enabled": true, "server_name": "ru1.h.fastlanehosting.ru", "insecure": false }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇹 Austria [WhiteList]",
+      "server": "152.53.200.167",
+      "server_port": 8444,
+      "password": "trojan",
+      "tls": { "enabled": true, "server_name": "jflsjlaf.pages.dev", "utls": { "enabled": true, "fingerprint": "chrome" } },
+      "transport": { "type": "ws", "path": "/", "headers": { "Host": "jflsjlaf.pages.dev" } }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 USA #2 [WhiteList]",
+      "server": "213.219.214.27",
+      "server_port": 443,
+      "uuid": "1fabb370-dac5-47cd-a2cb-f8e82ed9223b",
+      "tls": { "enabled": true, "server_name": "www.vk.com", "utls": { "enabled": true, "fingerprint": "chrome" }, "reality": { "enabled": true, "public_key": "_1Vo7MoIcb8M1u2e7BkXRQx52-ls3mnMqzTs-TrOjg0", "short_id": "287d" } },
+      "transport": { "type": "xhttp", "host": ["vk.com"], "path": "/" }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Netherlands [WhiteList]",
+      "server": "84.201.132.10",
+      "server_port": 443,
+      "uuid": "0e3ae851-97bc-439d-b370-a1d893d4bdd4",
+      "flow": "xtls-rprx-vision",
+      "tls": { "enabled": true, "server_name": "music.yandex.ru", "utls": { "enabled": true, "fingerprint": "chrome" }, "reality": { "enabled": true, "public_key": "OtmHF41JJLUBnJZpJ7MWyQ1oqIxY8yaoCtVmXODIix8", "short_id": "16430e630f" } }
     }
   ]
 }
